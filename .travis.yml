@@ -6,11 +6,11 @@ python:
 - '3.5'
 - '3.6'
 install:
-- pip install python-coveralls tox tox-travis
+- pip install python-coveralls pytest-cov tox tox-travis
 script: tox --recreate
 after_success:
 - pip install -e .
-- py.test tests
+- py.test --cov=timeout_decorator --cov-report=term-missing tests
 - coveralls
 deploy:
   provider: pypi
