@@ -1,13 +1,24 @@
 """Envoy signature management."""
 
+import sys
 import hmac
 import hashlib
 
 
 def generator(api_key, timestamp, token):
     message = '{}{}'.format(timestamp, token)
-    return hmac.new(bytes(api_key, 'UTF-8'), msg=bytes(message, 'UTF-8'),
-                    digestmod=hashlib.sha256).hexdigest().upper()
+    if sys.version_info[0] < 3:
+        return hmac.new(
+            str(api_key),
+            msg=message,
+            digestmod=hashlib.sha256
+        ).hexdigest().upper()
+    else:
+        return hmac.new(
+            bytes(api_key, 'UTF-8'),
+            msg=bytes(message, 'UTF-8'),
+            digestmod=hashlib.sha256
+        ).hexdigest().upper()
 
 
 def is_valid(api_key, timestamp, token, signature):

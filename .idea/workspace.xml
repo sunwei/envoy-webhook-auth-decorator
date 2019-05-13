@@ -4,6 +4,8 @@
     <list default="true" id="a7a596c3-4b91-4b93-8034-6d31424bae0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/envoy_webhook_auth_decorator/hmac_signature.py" afterPath="$PROJECT_DIR$/envoy_webhook_auth_decorator/hmac_signature.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tox.ini" afterPath="$PROJECT_DIR$/tox.ini" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,9 +33,21 @@
         <entry file="file://$PROJECT_DIR$/envoy_webhook_auth_decorator/envoy_webhook_auth_decorator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
                 <element signature="e#143#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hmac_signature.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/envoy_webhook_auth_decorator/hmac_signature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#35#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,16 +58,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -74,8 +78,8 @@
       <file leaf-file-name="tox.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tox.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -113,16 +117,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-              <folding>
-                <marker date="1557731872000" expanded="true" signature="270:1044" ph="deploy: &lt;4 keys&gt;" />
-                <marker date="1557731872000" expanded="true" signature="1026:1044" ph="on: &lt;1 key&gt;" />
-                <marker date="1557731872000" expanded="true" signature="1042:1044" ph="2." />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,14 +155,14 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/README.rst" />
-        <option value="$PROJECT_DIR$/envoy_webhook_auth_decorator/hmac_signature.py" />
         <option value="$PROJECT_DIR$/envoy_webhook_auth_decorator/__init__.py" />
         <option value="$PROJECT_DIR$/tests/test_hmac_signature.py" />
-        <option value="$PROJECT_DIR$/tox.ini" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/tests/test_envoy_webhook_auth_decorator.py" />
         <option value="$PROJECT_DIR$/envoy_webhook_auth_decorator/envoy_webhook_auth_decorator.py" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/tox.ini" />
+        <option value="$PROJECT_DIR$/envoy_webhook_auth_decorator/hmac_signature.py" />
       </list>
     </option>
   </component>
@@ -953,12 +953,12 @@
       <updated>1557562292498</updated>
       <workItem from="1557562293775" duration="9283000" />
       <workItem from="1557714027604" duration="7937000" />
-      <workItem from="1557730579554" duration="1288000" />
+      <workItem from="1557730579554" duration="2010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18508000" />
+    <option name="totallyTimeSpent" value="19230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1033,7 +1033,7 @@
         <state relative-caret-position="209">
           <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
-            <element signature="e#35#46#0" expanded="true" />
+            <element signature="e#46#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1087,7 +1087,7 @@
         <state relative-caret-position="95">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#25#81#0" expanded="true" />
+            <element signature="e#25#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1138,11 +1138,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <marker date="1557731872000" expanded="true" signature="270:1044" ph="deploy: &lt;4 keys&gt;" />
-            <marker date="1557731872000" expanded="true" signature="1026:1044" ph="on: &lt;1 key&gt;" />
-            <marker date="1557731872000" expanded="true" signature="1042:1044" ph="2." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,7 +1167,7 @@
         <state relative-caret-position="95">
           <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
-            <element signature="e#25#81#0" expanded="true" />
+            <element signature="e#25#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1211,17 +1207,7 @@
         <state relative-caret-position="95">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#25#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/envoy_webhook_auth_decorator/hmac_signature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#35#46#0" expanded="true" />
+            <element signature="e#25#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1286,16 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/envoy_webhook_auth_decorator/envoy_webhook_auth_decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding>
-            <element signature="e#143#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1306,22 +1282,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tox.ini">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="57">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/tox.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        <state relative-caret-position="228">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/envoy_webhook_auth_decorator/envoy_webhook_auth_decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
-            <marker date="1557731872000" expanded="true" signature="270:1044" ph="deploy: &lt;4 keys&gt;" />
-            <marker date="1557731872000" expanded="true" signature="1026:1044" ph="on: &lt;1 key&gt;" />
-            <marker date="1557731872000" expanded="true" signature="1042:1044" ph="2." />
+            <element signature="e#143#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/envoy_webhook_auth_decorator/hmac_signature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#35#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
