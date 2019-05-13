@@ -27,7 +27,7 @@ long_description = (
 
 setup(
     name='envoy-webhook-auth-decorator',
-    version='0.0.1',
+    version='0.0.2',
     description='Envoy webhook authentication decorator',
     long_description=long_description,
     author='Wayde Sun',

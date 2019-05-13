@@ -91,7 +91,7 @@ class _Authentication(object):
         True, the "value" property may then be checked for returned data.
         """
         if self._validate():
-            self.__function(*args, **kwargs)
+            return self.__function(*args, **kwargs)
 
     def _validate(self):
         """Terminate any possible execution of the embedded function."""
