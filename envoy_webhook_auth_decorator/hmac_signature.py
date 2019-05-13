@@ -12,13 +12,13 @@ def generator(api_key, timestamp, token):
             str(api_key),
             msg=message,
             digestmod=hashlib.sha256
-        ).hexdigest().upper()
+        ).hexdigest()
     else:
         return hmac.new(
             bytes(api_key, 'UTF-8'),
             msg=bytes(message, 'UTF-8'),
             digestmod=hashlib.sha256
-        ).hexdigest().upper()
+        ).hexdigest()
 
 
 def is_valid(api_key, timestamp, token, signature):

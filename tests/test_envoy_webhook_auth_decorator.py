@@ -14,7 +14,7 @@ def test_auth_decorator_wrong_sign():
 
 
 def test_auth_decorator_sign():
-    sign = "3310765E77D6230F80858B6BA14BC4FCA7C8CE72F1F6D8FDE891F214A9B9B516"
+    sign = "3310765e77d6230f80858b6ba14bc4fca7c8ce72f1f6d8fde891f214a9b9b516"
     api_key = "key"
     timestamp = "23523523"
     token = "token"
