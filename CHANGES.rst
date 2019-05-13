@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.3
+-----
+
+- Remove hmac_signature upper process logic
+
 0.0.2
 -----
 
