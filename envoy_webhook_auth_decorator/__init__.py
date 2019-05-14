@@ -6,4 +6,4 @@ from .hmac_signature import generator
 from .hmac_signature import is_valid
 
 __title__ = 'envoy_webhook_auth_decorator'
-__version__ = '0.0.1'
+__version__ = '0.1.1'
