@@ -25,7 +25,7 @@ Usage
 
     import envoy_webhook_auth_decorator
 
-    @envoy_webhook_auth_decorator.@authentication({"api_key": ..., "timestamp": ..., "token": ..., "signature": ...})
+    @envoy_webhook_auth_decorator.authentication({"api_key": ..., "timestamp": ..., "token": ..., "signature": ...})
     def mytest():
         print("Testing...")
 
